@@ -3,9 +3,9 @@ package com.ch4_schedule_dev.service;
 import com.ch4_schedule_dev.dto.ScheduleResponseDto;
 import com.ch4_schedule_dev.dto.ScheduleItemRequestDto;
 import com.ch4_schedule_dev.entity.Schedule;
-import com.ch4_schedule_dev.entity.User; // 💡 User 엔티티 임포트 추가
+import com.ch4_schedule_dev.entity.User;
 import com.ch4_schedule_dev.repository.ScheduleRepository;
-import com.ch4_schedule_dev.repository.UserRepository; // 💡 UserRepository 임포트 추가
+import com.ch4_schedule_dev.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

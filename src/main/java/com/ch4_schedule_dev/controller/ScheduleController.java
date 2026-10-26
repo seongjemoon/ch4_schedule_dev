@@ -1,7 +1,7 @@
 package com.ch4_schedule_dev.controller;
 
 import com.ch4_schedule_dev.dto.ScheduleResponseDto;
-import com.ch4_schedule_dev.dto.ScheduleItemRequestDto; // 👈 가지고 계신 DTO 임포트
+import com.ch4_schedule_dev.dto.ScheduleItemRequestDto;
 import com.ch4_schedule_dev.service.ScheduleService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;

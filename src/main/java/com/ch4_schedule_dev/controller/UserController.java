@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/users") // 💡 모든 유저 관련 주소는 /api/users 로 시작합니다.
+@RequestMapping("/api/users")
 public class UserController {
 
     private final UserService userService;

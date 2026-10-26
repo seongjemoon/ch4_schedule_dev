@@ -9,9 +9,9 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.time.LocalDateTime;
 
 @Entity
-@Getter // 💡 이걸 붙여야 DTO에서 getCreatedAt()을 호출할 수 있습니다!
+@Getter
 @NoArgsConstructor
-@EntityListeners(AuditingEntityListener.class) // 💡 JPA Auditing 기능을 켜줍니다.
+@EntityListeners(AuditingEntityListener.class)
 public class Schedule {
 
     @Id
