@@ -57,6 +57,8 @@ public class ScheduleService {
         Schedule schedule = scheduleRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("해당 일정이 존재하지 않습니다. id=" + id));
         schedule.update(requestDto.getTitle(), requestDto.getContent());
+        scheduleRepository.flush();
+
         return new ScheduleResponseDto(schedule);
     }
 
